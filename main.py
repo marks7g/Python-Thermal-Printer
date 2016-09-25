@@ -49,8 +49,8 @@ def tap1():
   subprocess.call(["python", "acmeblinkt.py"])
 #  GPIO.output(ledPin, GPIO.LOW)
 
-# Called when button1 is briefly tapped.  Invokes time/temperature script.
-def tap12():
+# Called when button2 is briefly tapped.  Invokes time/tempeture script.
+def tap2():
 #  GPIO.output(ledPin, GPIO.HIGH)  # LED on while working
 #  subprocess.call(["python", "timetemp.py"])
   subprocess.call(["python", "acmeblinkt.py"])
